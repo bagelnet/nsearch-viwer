@@ -2,27 +2,25 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>すごい検索viewer</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <title>NSearch viewer</title>
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/scripts.js"></script>
 </head>
 
 <body>
   <div id="step1">
-    <p>すごい検索の結果のJSONを貼り付けてください</p>
+    <h3>STEP 1: 検索APIの結果のJSONを貼り付けてください</h3>
     <textarea id="step1-textarea" cols="50" rows="5"></textarea>
     <button id="step1-button">OK</button>
   </div>
   <div id="step2">
-    <p>各フィールドの型を選んでください</p>
-    <ul id="step2-list">
-    </ul>
-    <button>OK</button>
+    <h3>STEP 2: 各フィールドの型を選んでください</h3>
+    <ul id="step2-list"></ul>
+    <button id="step2-button">OK</button>
   </div>
   <div id="step3">
-    <p>以下のような結果になりました</p>
+    <h3>STE 3: 以下のような結果になりました</h3>
+    <div id="step3-list"></div>
   </div>
 </body>
 </html>
